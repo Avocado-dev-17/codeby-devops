@@ -1,0 +1,4 @@
+User: root
+Host: host-163
+Date: Пт 27 мар 2026 10:18:14 MSK
+Path: /root/codeby-devops

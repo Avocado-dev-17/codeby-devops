@@ -1,0 +1,20 @@
+   64  git remove -v
+   65  git remote -v
+   66  git switch main
+   67  git checkout main
+   68  git switch -c lesson3
+   69  git branch
+   70  git branch
+   71  nano README.md
+   72  nano README.md
+   73  git status
+   74  git add README.md
+   75  git commit -m "Update README for lesson3"
+   76  git push -u origin lesson3
+   77  mkdir -p lesson3/linux_practice
+   78  echo "User: $(whoami)" > lesson3/linux_practice/vm_info.txt
+   79  echo "Host: $(hostname)" >> lesson3/linux_practice/vm_info.txt
+   80  echo "Date: $(date)" >> lesson3/linux_practice/vm_info.txt
+   81  echo "Path: $(pwd)" >> lesson3/linux_practice/vm_info.txt
+   82  ip a > lesson3/linux_practice/network.txt
+   83  history | tail -n 20 > lesson3/linux_practice/history.txt
